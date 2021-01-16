@@ -1,0 +1,25 @@
+.header__lang-link {
+	color: #fff;
+	-webkit-text-decoration-line: none;
+	        text-decoration-line: none;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+	margin-left: 18px;
+	margin-top: 16px;
+}
+
+.header__lang-link:nth-child(2n) {
+	border-bottom: 2px #fff solid;
+}
+
+.header__lang-link:nth-child(3n) {
+	border-bottom: 2px #2A2C2F solid;
+}
+
+@media screen and (max-width: 768px) {
+	.header__lang-link {
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
