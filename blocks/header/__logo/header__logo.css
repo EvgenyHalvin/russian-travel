@@ -1,4 +1,4 @@
-.logo_place_header {
+.header__logo {
   padding: 0;
 	margin: 0;
   width: 176px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	.logo_place_header {
+	.header__logo {
 		padding-right: 3px;  /* а инчае картинка режется на эти 3 пикселя справа ¯\_(ツ)_/¯ */
 		width: 142px;
 		height: 42px;
