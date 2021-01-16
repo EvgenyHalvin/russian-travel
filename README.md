@@ -18,6 +18,6 @@
 Все картинки оптимизированы.
 
 
-** Ссылка на сайт **
+**Ссылка на сайт**
 
 https://evgenyhalvin.github.io/russian-travel/index.html
