@@ -1,7 +1,6 @@
 .footer {
-	max-width: 1280px;
+	max-width: 1184px;
 	margin: 92px auto 0;
-	padding: 0 48px 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -11,17 +10,21 @@
 	        flex-direction: row;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
 	.footer {
-		margin: 88px 24px 0;
-		padding: 0;
+		margin: 92px 48px 0;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+	.footer {
+		margin: 88px 24px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.footer {
 		margin: 64px 16px 0;
-		padding: 0;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: column;
