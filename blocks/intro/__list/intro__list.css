@@ -6,9 +6,3 @@
 	line-height: 18px;
 	list-style: none;
 }
-
-@media screen and (max-width: 768px) {
-	.intro__list {
-		margin-top: 34px; /* наверное, на разницу в 1 пиксель можно было бы и не обращать внимания ;) */
-	}
-}
