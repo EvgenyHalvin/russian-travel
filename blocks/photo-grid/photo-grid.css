@@ -5,8 +5,6 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  display: -ms-flexbox; /*для IE*/
-  -ms-flex-wrap: wrap; /*для IE*/
 }
 
 
